@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noprobelm.dev/sitemap.xml
