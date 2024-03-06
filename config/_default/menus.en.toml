@@ -1,0 +1,36 @@
+[[main]]
+none = "none"
+
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+weight = 10
+
+
+[[main]]
+pre = "reddit"
+url = "https://www.reddit.com/u/noprobelm1"
+identifier = "FrkyYIi5yE"
+weight = 9999
+
+[[main]]
+pre = "mastodon"
+url = "https://www.mastodon.social/@noprobelm"
+identifier = "hx2BHcWOn8"
+weight = 9999
+
+[[main]]
+pre = "github"
+url = "https://www.github.com/noprobelm"
+identifier = "IiIqgCyuSu"
+weight = 9999
+
+[[main]]
+pre = "email"
+url = "jeffreybarfield@protonmail.com"
+identifier = "fnvv9hK5yo"
+weight = 9999
+
+[[footer]]
+none = "none"
