@@ -6,10 +6,5 @@ name = "Projects"
 pageRef = "projects"
 weight = 10
 
-[[main]]
-name = "Guides"
-pageRef = "guides"
-weight = 9999
-
 [[footer]]
 none = "none"
