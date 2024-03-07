@@ -14,5 +14,5 @@ description = ""
 name = "Jeff Barfield"
 headline = "Software Engineer, Perpetual Learner, System Crafter"
 bio = "I am a dedicated software engineer with a mastery of Python and Linux systems. I love competitive programming, learning new languages, emacs, and finding new tools and technologies to include in my workflow."
-links = [ { email = "jeffreybarfield@protonmail.com" }, { github = "https://www.github.com/noprobelm" }, { mastodon = "https://mastodon.social/@noprobelm" }, { reddit = "https://www.reddit.com/u/noprobelm1" } ]
+links = [ { email = "mailto:jeffreybarfield@protonmail.com" }, { github = "https://www.github.com/noprobelm" }, { mastodon = "https://mastodon.social/@noprobelm" }, { reddit = "https://www.reddit.com/u/noprobelm1" } ]
 image = "background.png"
