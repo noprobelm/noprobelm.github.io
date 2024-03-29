@@ -26,6 +26,6 @@ draft = false
   <body>
     <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
     <canvas id="quadtree-canvas"></canvas>
-    <script src="../../../quadtree_rs/www/bootstrap.js"></script>
+	{{<quadtree>}}
   </body>
 </html>

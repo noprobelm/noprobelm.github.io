@@ -37,7 +37,7 @@ jobs:
 
       - name: Copy quadtree sources
         run: |
-          cp -r quadtree_rs noprobelm.dev/
+          cp -r quadtree_rs noprobelm.dev/assets/
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
