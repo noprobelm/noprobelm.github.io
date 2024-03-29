@@ -35,6 +35,10 @@ jobs:
           cd quadtree_rs
           wasm-pack build
 
+      - name: Copy quadtree sources
+        run: |
+          cp -r quadtree_rs noprobelm.dev/
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
