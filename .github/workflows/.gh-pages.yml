@@ -19,6 +19,17 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Get and build quadtree-rs
+        run: |
+          apt install git
+          git clone https://github.com/noprobelm/quadtree-rs.git
+          cd quadtree-rs
+          wasm-pack build
+
+      - name: Copy quadtree-rs wasm
+        run: |
+          cp -r quadtree-rs/pkg .
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
