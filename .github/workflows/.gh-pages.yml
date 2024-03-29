@@ -25,6 +25,11 @@ jobs:
           repository: noprobelm/quadtree_rs
           path: quadtree_rs
 
+      - name: Install wasm-pack
+        uses: jetli/wasm-pack-action@v0.4.0
+        with:
+            version: 'latest'
+
       - name: Build quadtree_rs
         run: |
           cd quadtree_rs
