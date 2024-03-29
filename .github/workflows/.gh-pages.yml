@@ -19,16 +19,19 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Get and build quadtree-rs
+      - name: Get quadtree_rs
+        uses: actions/checkout@v3
+        with:
+          repository: noprobelm/quadtree_rs
+
+      - name: Build quadtree_rs
         run: |
-          apt install git
-          git clone https://github.com/noprobelm/quadtree-rs.git
-          cd quadtree-rs
+          cd quadtree_rs
           wasm-pack build
 
-      - name: Copy quadtree-rs wasm
+      - name: Copy quadtree_rs wasm
         run: |
-          cp -r quadtree-rs/pkg .
+          cp -r quadtree_rs/pkg .
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
